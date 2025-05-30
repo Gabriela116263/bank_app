@@ -1,4 +1,4 @@
-USE bank_app;
+CREATE DATABASE bank_app;
 
 CREATE TABLE transfers (
     id INT AUTO_INCREMENT PRIMARY KEY,
