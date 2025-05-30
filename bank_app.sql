@@ -1,0 +1,10 @@
+USE bank_app;
+
+CREATE TABLE transfers (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nazwa_odbiorcy VARCHAR(255) NOT NULL,
+    numer_konta VARCHAR(40) NOT NULL,
+    tytul_przelewu VARCHAR(255) NOT NULL,
+    kwota DECIMAL(10,2) NOT NULL,
+    data DATETIME DEFAULT CURRENT_TIMESTAMP
+);
